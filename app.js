@@ -11,7 +11,7 @@ import messageRoute from "./routes/message.route.js";
 const app = express();
 
 app.use(
-  cors({ origin: "https://estate-app-xi.vercel.app/", credentials: true })
+  cors({ origin: "https://estate-app-xi.vercel.app", credentials: true })
 );
 app.use(express.json());
 app.use(cookieParser());
